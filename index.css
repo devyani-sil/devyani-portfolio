@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    /* margin: 0;
+    padding: 0; */
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #eaeaf3;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav ul {
+    text-decoration: none;
+    margin-right: 2.5rem;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+
+}
+
+.nav ul a {
+    color: black;
+}
+
+.nav span {
+    margin-right: 0.51rem;
+}
+
+.nav :last-child {
+    margin-right: none;
+}
+
+.right {
+    margin: 2rem 1rem 1rem 55%;
+}
+
+.logo {
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 6rem;
+    width: 10rem;
+    margin: 1rem 0rem 1rem 60%;
+}
+
+.First {
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    min-height: 80vh;
+    width: 100%;
+    background-color: #eaeaf3;
+    margin: 0rem 0rem 0rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.cont {
+    /* background-color: pink; */
+    width: 50%;
+    height: 50vh;
+    margin: 5rem;
+    margin-bottom: none;
+
+
+}
+
+.pix {
+    background-color: rgb(127, 0, 21);
+    width: 30%;
+    height: 70vh;
+    margin: 5rem;
+    background-image: url(bleazur.jpg);
+
+}
+
+.cont h1 {
+    font-size: 2rem;
+    color: #474563;
+    letter-spacing: 2px;
+
+}
+
+.cont h2 {
+    margin: 2rem 0rem 2rem 0rem;
+    letter-spacing: 1.5px;
+    color: #474563
+}
+
+.cont p {
+    margin: 2rem 0rem 5rem 0rem;
+    letter-spacing: 1px;
+    color: #474563
+}
+
+.cont h3 {
+    margin: 2rem 0rem 4rem 0rem;
+    letter-spacing: 1px;
+    color: #474563
+}
+
+.cont span {
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.cont a {
+    color: red;
+}
+
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    border-radius: 1.5rem;
+    background-color: red;
+    letter-spacing: 0.5px;
+    color: white;
+    border: none;
+}
+
+.btn1 {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    border-radius: 5rem;
+
+    letter-spacing: 0.5px;
+    color: red;
+    border: none;
+}
+
+.btn1 a {
+    color: #ffffff;
+}
+
+@media screen and (max-width:720px) {
+    header {
+        width: 100%;
+
+    }
+
+
+    .first {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .cont {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .pix {
+        width: 80%;
+        margin-bottom: -2rem;
+    }
+
+    .logo img {
+        height: 3rem;
+        width: 7rem;
+        margin: 1.5rem 0rem 1rem 0%;
+    }
+
+    .right {
+        margin: 2rem 1rem 1rem 10%;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .nav ul {
+        text-decoration: none;
+        margin-right: 0.8rem;
+        font-size: 0.89rem;
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+
+    }
+
+    .nav ul a {
+        color: black;
+    }
+
+    .nav span {
+        margin-right: 0.51rem;
+    }
+
+    .nav :last-child {
+        margin-right: none;
+    }
+}
+
+.about {
+    height: 130vh;
+}
+
+
+
+.About h1 {
+    margin-left: 5%;
+    font-size: 3rem;
+    padding-top: 4rem;
+    
+}
+
+.about h1 {
+    margin: 0%;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.row1 span {
+    color: #474563
+}
+
+.row1 {
+    line-height: 38px;
+}
+
+.row2 {
+    margin-left: 2rem;
+    line-height: 38px;
+}
+
+.row2 span {
+    color: #474563;
+}
+
+.About {
+    background-color: #eaeaf3;
+    height: 150vh;
+}
+
+.About .cont {
+    width: 88%;
+    margin-top: 2rem;
+}
+
+.btn a {
+    color: #eaeaf3;
+
+}
+
+.btn {
+    margin: 1rem;
+    font-size: 1rem;
+    color: #eaeaf3;
+}
+
+.btn1 a {
+    color: #eaeaf3;
+
+}
+
+.btn1 {
+    margin: 1rem;
+    font-size: 1rem;
+    color: #eaeaf3;
+}
+
+.cont1 {
+    /* background-color: pink; */
+    width: 90%;
+    height: 60vh;
+    margin: 5rem 5rem 5rem 5%;
+
+
+}
+
+.cont1 h1 {
+    font-size: 2rem;
+    color: #474563;
+    letter-spacing: 2px;
+
+}
+
+.cont1 h2 {
+    margin: 2rem 0rem 2rem 0rem;
+    letter-spacing: 1.5px;
+    color: #474563
+}
+
+.cont1 p {
+    margin: 2rem 0rem 5rem 0rem;
+    letter-spacing: 1px;
+    color: #474563
+}
+
+.cont1 h3 {
+    margin: 2rem 0rem 4rem 0rem;
+    letter-spacing: 1px;
+    color: #474563
+}
+
+.cont1 span {
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.cont1 a {
+    color: red;
+}
+
+
+.edu {
+    display: flex;
+    flex-direction: row;
+}
+
+.Education {
+    margin: 0rem 0rem 4rem 5%;
+    height: 50vh;
+    width: 30vw;
+    background-color: #ffffff;
+}
+
+.Education h3 {
+    margin-top: 2rem;
+
+}
+
+.Skills {
+    height: 50vh;
+    width: 35vw;
+    background-color: #ffffff;
+    margin-left: 15rem;
+}
+
+.services {
+    background-color: #eaeaf3;
+    height: 130vh;
+   
+}
+
+.service h1 {
+    background-color: #eaeaf3;
+    margin-left: 5%;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+
+
+}
+
+.txt {
+    background-color: #eaeaf3;
+    height: 80vh;
+    width: 80vw;
+    font-size: 1rem;
+    margin: 4rem 2rem 2rem 4rem;
+}
+
+.txt h2 {
+    background-color: #eaeaf3;
+    margin: 2rem 0rem 1rem 0rem;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width:720px) {
+    .About {
+        width: 100%;
+        height: 220vh;
+    }
+
+    .cont1 {
+        width: 80%;
+        height: 80vh;
+        margin-left: 2rem;
+    }
+
+    .edu {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .Education {
+        width: 80%;
+        height: 50vh;
+    }
+
+    .Skills {
+        height: 50vh;
+        width: 80%;
+        background-color: #ffffff;
+        margin-left: 1rem;
+    }
+
+    .service {
+        background-color: #f2b1b1;
+        padding: 50px 0;
+        height: 140vh;
+        width: 100%;
+        /* background-color: rgb(160, 96, 12); */
+    }
+
+    .service h1 {
+        margin-left: 5%;
+        padding-top: 2rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 36px;
+        font-weight: 700;
+        
+    }
+
+    .txt {
+        height: 120vh;
+        width: 80%;
+        margin: 4rem 0rem 2rem 3rem;
+        /* background-color: red; */
+    }
+
+    .txt h2 {
+        margin: 2rem 0rem 1rem 0rem;
+    }
+
+
+    :root {
+        --skin-color: #ec1839;
+    }
+
+}
+
+.skill-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* background-color: red; */
+}
+
+.skill-item h5 {
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+
+.skill-item .progress {
+    background-color: var(--bg-black-50);
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+
+}
+
+.skill-item {
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.skill-item .progress .progress-in {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--skin-color);
+}
+
+.skill-item .skill-percent {
+    position: absolute;
+    right: 0;
+    color: var(--text-black-900);
+    top: -40px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+:root {
+    --skin-color: #ec1839;
+}
